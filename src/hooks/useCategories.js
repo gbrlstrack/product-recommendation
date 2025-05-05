@@ -22,20 +22,7 @@ const useCategories = () => {
         fetchCategories();
     }, [])
 
-    const save = useCallback(async (categories) => {
-        const body = JSON.stringify({
-            categories
-        })
-        try {
-            const response = await fetch("http://localhost:3000/userChoices", { method: "POST", body });
-        } catch (err) {
-            setError(err);
-        } finally {
-            setLoading(false);
-        }
-    }, [])
-
-    return { categories, loading, error, save }
+    return { categories, loading, error }
 }
 
 export default useCategories

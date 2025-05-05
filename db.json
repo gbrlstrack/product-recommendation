@@ -1,50 +1,67 @@
 {
   "userChoices": [
     {
-      "id": "5ea1",
+      "id": "4686",
       "categories": [
-        3
-      ]
+        "2"
+      ],
+      "name": "teste"
+    },
+    {
+      "id": "237d",
+      "categories": [
+        "3",
+        "1"
+      ],
+      "name": "teste 2"
+    },
+    {
+      "id": "7dfd",
+      "categories": [
+        "3",
+        "1"
+      ],
+      "name": "teste 4"
     }
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Futebol ⚽"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Anime 🍙"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Maquiagem 💄"
     }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Action figure Sung Jin Woo",
       "image": "https://kairosekiactionfigures.com.br/cdn/shop/files/0088D4F4-FFD8-483D-90F3-24D947EBCBB7_1200x1200_crop_center.png?v=1734290483",
       "categoryId": [
-        2
+        "2"
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Action figure Isagi",
       "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5nnfm2em7b9ad",
       "categoryId": [
-        1,
-        2
+        "1",
+        "2"
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Paleta Makeup",
       "image": "https://albumm.com.br/wp-content/uploads/2021/08/paleta-makeup-bag-sephora-collection-medium-shopping.jpg",
       "categoryId": [
-        3
+        "3"
       ]
     }
   ]
