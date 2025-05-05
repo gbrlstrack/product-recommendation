@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import useCategories from "./hooks/useCategories";
-import useForm from "./hooks/useForm";
+import useCategories from "../hooks/useCategories";
+import useForm from "../hooks/useForm";
 
 const Form = ({ closeForm }) => {
   const { save } = useForm()

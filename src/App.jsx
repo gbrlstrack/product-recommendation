@@ -1,8 +1,8 @@
 import React, { useCallback, useState } from "react";
 import "./App.css";
 import useProducts from "./hooks/useProducts";
-import Form from "./Form";
-import ProductCard from "./ProductCard";
+import Form from "./components/Form";
+import ProductCard from "./components/ProductCard";
 import useUsers from "./hooks/useUsers";
 
 function App() {
