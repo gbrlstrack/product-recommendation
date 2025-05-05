@@ -1,28 +1,6 @@
 {
   "userChoices": [
-    {
-      "id": "4686",
-      "categories": [
-        "2"
-      ],
-      "name": "teste"
-    },
-    {
-      "id": "237d",
-      "categories": [
-        "3",
-        "1"
-      ],
-      "name": "teste 2"
-    },
-    {
-      "id": "7dfd",
-      "categories": [
-        "3",
-        "1"
-      ],
-      "name": "teste 4"
-    }
+   
   ],
   "categories": [
     {

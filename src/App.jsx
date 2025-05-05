@@ -23,7 +23,7 @@ function App() {
   return (
     <main className="m-0 w-screen h-screen flex items-center justify-center bg-linear-45 from-[#00d4ff] to-[#0b032d]">
 
-      {isFormOpen ? (
+      {isFormOpen || !recommendedProducts ? (
         <Form />
       ) :
         <div className="flex flex-col gap-2">
