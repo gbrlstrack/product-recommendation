@@ -78,7 +78,12 @@ const Form = ({ closeForm }) => {
             value={formData.name}
             onChange={handleChange}
           />
-          <button onClick={handleClickContinue} className="h-8 w-25 bg-white hover:bg-gray-100 text-black font-semibold px-4 rounded-2xl cursor-pointer ">
+          <button
+            disabled={formData.name.length === 0}
+            onClick={handleClickContinue}
+            className="h-8 w-25 bg-white hover:bg-gray-100 text-black font-semibold px-4 rounded-2xl 
+            cursor-pointer disabled:text-gray-400 disabled:cursor-not-allowed disabled:bg-gray-300"
+          >
             Continuar
           </button>
         </div>
@@ -90,7 +95,12 @@ const Form = ({ closeForm }) => {
             {renderCategory()}
           </>
           <div className="mt-2">
-            <button onClick={handleClickSave} className="h-8 bg-white hover:bg-gray-100 text-black font-semibold px-4 rounded-2xl cursor-pointer ">
+            <button
+              disabled={formData.categories.length === 0}
+              onClick={handleClickSave}
+              className="h-8 bg-white hover:bg-gray-100 text-black font-semibold px-4 rounded-2xl cursor-pointer 
+            disabled:text-gray-400 disabled:cursor-not-allowed disabled:bg-gray-300"
+            >
               Salvar
             </button>
           </div>

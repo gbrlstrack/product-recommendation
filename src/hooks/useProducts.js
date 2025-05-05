@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
-import { recomendationService } from "../recommendation.service";
+import { recomendationService } from "../services/recommendation.service";
+
 
 const useProducts = () => {
     const [recommendedProducts, setRecommendedProducts] = useState();

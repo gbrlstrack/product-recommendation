@@ -18,6 +18,7 @@ function App() {
     getUserRecommendations(userId)
   }
   const renderCards = () => {
+    if (recommendedProducts.length === 0) return <p>Não há recomendações baseadas nas escolhas desse usuário</p>
     return recommendedProducts?.map((product) => <ProductCard key={product.id} name={product.name} image={product.image} />)
   }
   return (
