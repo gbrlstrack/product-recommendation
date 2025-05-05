@@ -1,12 +1,16 @@
-# React + Vite
+# Product Recommendation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação de recomendação de produtos, onde os produtos são recomendados com base nas categorias de interesse de um usuário. A aplicação permite que os usuários selecionem categorias e, com base nessas escolhas, recomenda produtos que pertencem a essas categorias.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Recomendação de produtos**: A aplicação utiliza um serviço que recomenda produtos com base nas categorias de interesse do usuário.
+- **Seleção de categorias**: O usuário pode selecionar categorias de produtos e a aplicação irá filtrar os produtos que pertencem a essas categorias.
+- **Interface de usuário**: A aplicação possui uma interface simples para visualizar os produtos e selecionar as categorias.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Biblioteca para construção da interface do usuário.
+- **Tailwind CSS**: Utilizado para estilização da aplicação com classes utilitárias.
+- **Vitest**: Framework de testes para garantir a qualidade do código.
+- **Node.js**: Ambiente de execução para o backend e servidor de desenvolvimento.
